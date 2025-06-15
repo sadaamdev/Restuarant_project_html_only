@@ -3,27 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qobeey Restaurant - Home</title>
+    <title>Sumayo xusein- Profile IDCSB1501OO3</title>
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #656fcc, #805ad5); /* Blue-purple gradient from image */
+}
+.profile-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 4px solid #fff; /* White border around image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+}
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.role-badge {
+    background-color: #56bae6; /* Blue color for the badge */
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.description {
+   font-size: 0.95em;
+   color: #666;
+   line-height: 1.6;
+   margin-bottom: 25px;
+}
+.connect-section {
+    width: 100%;
+    margin-top: 15px;
+ }
+
+.connect-section h3 {
+     font-size: 1.1em;
+     color: #555;
+     margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+}
+
+.social-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+ }
+
+.social-icon-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.social-icon-link.facebook {
+      background-color: #3b5998; /* Facebook blue */
+}
+
+.social-icon-link.instagram {
+     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); /* Instagram gradient */
+}
+
+.social-icon-link.whatsapp {
+     background-color: #27be61; /* whatsapp green */
+}
+
+        /* Responsive adjustments */
+@media (max-width: 480px) {
+    .profile-card {
+     padding: 21px;
+}
+.profile-picture {
+    width: 100px;
+    height: 100px;
+}
+h2 {
+    font-size: 1.5em;
+}
+.description {
+    font-size: 0.9em;
+ }
+.social-icon-link {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+}
+}
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Qobeey Resturant</h1>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="foodgallary.html">Food Gallary</a>
-        <a href="contactus.html">Contact Us</a>
-    </header>
-
-    <main>
-        <img src="https://media.istockphoto.com/id/520410807/photo/cheeseburger.jpg?s=612x612&w=0&k=20&c=fG_OrCzR5HkJGI8RXBk76NwxxTasMb1qpTVlEM0oyg4=" alt="Burger">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus adipisci, 
-        <br>dolor amet, incidunt tenetur quidem debitis magnam culpa, impedit saepe ipsam
-        <br> doloribus dicta doloremque distinctio maxime quibusdam assumenda.</p>
-        <button>Order Now</button>
-    </main>
-
-    <footer> 
-        <p>&copy; Qobeey Resturant Website</p>
-    </footer>
+    <div class="profile-card">
+        <div class="profile-picture">
+            <!-- Replace '' with the actual path to the profile image -->
+            <img src="sum.jpg" alt="SUMAYO XUSEIN Profile Picture">
+        </div>
+        <div class="role-badge">Computer Science AND ITt</div>
+        <h2>Sumayo xusein Ali</h2>
+        <p class="description">
+           “I really enjoy learning about technology and modern things that are emerging in the world.”
+        </p>
+        <div class="connect-section">
+            <h3>let's contact </h3>
+            <div class="social-icons">
+        <a href="https://www.facebook.com/share/1C72GBQxJm/?mibextid=wwXIfr" class="social-icon-link facebook" aria-label="Facebook">
+    <i class="fab fa-facebook-f"></i>
+     </a>
+    <a href="https://www.instagram.com/sumayoh_?igsh=N3ZtdHdvaWE5enM2&utm_source=qr" class="social-icon-link instagram" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+</a>
+   <a href="https://wa.me/614449399" class="social-icon-link whatsapp" aria-label="whatsapp">
+      <i  class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+  </div>
+  </div>
 </body>
 </html>
